@@ -193,7 +193,7 @@ function module:WriteVector3(Buffer, Vector)
 	self:WriteDouble(Buffer, Vector.Z)
 end
 
---- Read a bit of data from the buffer. NOT YET IMPLEMENTED.
+--- Read a bit of data from the buffer.
 -- @Param Buffer to read from
 function module:ReadBit(Buffer)
 	if ( not Buffer or type(Buffer) ~= "table" ) then
